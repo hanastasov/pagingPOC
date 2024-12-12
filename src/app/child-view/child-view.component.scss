@@ -1,0 +1,39 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.grid {
+  --ig-size: var(--ig-size-medium);
+  min-width: 600px;
+  min-height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.date-picker {
+  height: max-content;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+.textarea {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.card {
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+  max-width: 320px;
+  flex-shrink: 0;
+}
